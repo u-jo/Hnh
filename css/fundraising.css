@@ -1,4 +1,10 @@
 /* features header*/
+
+#current_season {
+    text-align: center;
+}
+
+
 .image_holder {
 	padding-left: 50px;
 	margin-top: 60px;
@@ -6,6 +12,7 @@
 #left_most {
 
 }
+
 
 #center_left {
 
@@ -157,6 +164,9 @@
 	margin-bottom: 0;
 }
 
+#page_links {
+	text-align: center;
+} 
 /* Responsive
 -------------------------------------------------- */
 

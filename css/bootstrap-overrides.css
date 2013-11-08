@@ -30,6 +30,10 @@
   .navbar-fixed-bottom .container {
     width: 940px;
   }
+
+  .container #production{
+    width: 1000px;
+  }
   .span12 {
     width: 940px;
   }
