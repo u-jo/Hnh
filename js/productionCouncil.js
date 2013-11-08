@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	//$("#in_pricing").hide();
-
+	$("img").css("vertical-align","bottom");
 	$(".plan").mouseenter(function() {
 		$(this).css("-webkit-transition","all 0.5s ease-out");
 		$(this).css("-moz-transition","all 0.5s ease");
