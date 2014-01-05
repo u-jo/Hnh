@@ -7,6 +7,25 @@ $(document).ready(function() {
   		$(this).attr('src', 'img/mugshots/drew.png');
 	});
 
+	$('#spring_producer').hover(function() {
+  		$(this).attr('src', 'img/mugshots/lindsey_fun.png');
+	}, function() {
+  		$(this).attr('src', 'img/mugshots/lindsey.png');
+	});
+
+	$('#childrens_theatre').hover(function() {
+  		$(this).attr('src', 'img/mugshots/karmyn_fun.png');
+	}, function() {
+  		$(this).attr('src', 'img/mugshots/karmyn.png');
+	});
+
+	$('#orchestral_supervisor').hover(function() {
+  		$(this).attr('src', 'img/mugshots/joanna_fun.png');
+	}, function() {
+  		$(this).attr('src', 'img/mugshots/joanna.png');
+	});
+
+
 	$('#membership_2').hover(function() {
   		$(this).attr('src', 'img/mugshots/daisygreen_fun.png');
 	}, function() {
