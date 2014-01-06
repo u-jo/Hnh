@@ -19,13 +19,13 @@
 	text-align: center;
 	background-color: black;
 	color: white;
-	padding: 10px;
+	padding: 1px;
 	margin-bottom: 50px;
-	font-size: 50px;
+	font-size: 40px;
 }
 
 .title_head h1 {
-	font-size: 70px;
+	font-size: 40px;
 }
 
 .timeline {
@@ -61,7 +61,7 @@
 
 .new_container p {
 	font-size: 30px;
-	line-height: 40px;
+	line-height: 35px;
 	text-align: justify;
 }
 
