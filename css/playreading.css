@@ -8,7 +8,7 @@
 	color: white;
 	background-color: black;
 	margin-top: 0px;
-	padding: 15px 0 5px 10px;
+	padding: 1px 1px 1px 1px;
 	font-size: 50px;
 }
 
@@ -17,8 +17,8 @@
 }
  
 .image_holder img#left_most{
-	margin-left: 5%;
-	width: 50%;
+	margin-left: 10%;
+	width: 40%;
 }
 .image_holder {
 
@@ -40,10 +40,13 @@ h3 {
 
 #paragraph_prod {
 	margin: 45px 0 0 0;
+	font-size: 30px;
+	text-align: justify;
+	line-height: 35px;
 }
 
 .title_head h1{
-	font-size: 70px;
+	font-size: 40px;
 }
 /*Pricing Option 1*/
 #in_pricing{
@@ -90,12 +93,6 @@ h3 {
 
 #plan_box{
 	margin: 15px 0 15px 0;
-}
-
-#paragraph_prod {
-	font-size: 30px;
-	text-align: justify;
-	line-height: 40px;
 }
 
 

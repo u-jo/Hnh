@@ -50,6 +50,11 @@ img#right_most {
 	
 }
 
+.section_header.indiv {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 #features .subtitle h2{
 	margin: 0;
 	font-style: none;

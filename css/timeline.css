@@ -35,6 +35,10 @@
 	font-family: 'Josefin Slab', Arial, sans-serif;
 }
 
+.span12.social_icons {
+	margin-left: 10%;
+	margin-right: auto;
+}
 .timeline:before {
 	content: '';
 	position: absolute;
@@ -105,35 +109,39 @@
 }
 
 .user-1 {
-	background-image: url(../images/chewbacca.jpg);
+	background-image: url(../images/1930s.png);
 }
 
 .user-2 {
-	background-image: url(../images/barf.jpg);
+	background-image: url(../images/1940s.png);
 }
 
 .user-3 {
-	background-image: url(../images/darkhelmet.jpg);
+	background-image: url(../images/1950s.png);
 }
 
 .user-4 {
-	background-image: url(../images/darthvader.jpg);
+	background-image: url(../images/1960s.png);
 }
 
 .user-5 {
-	background-image: url(../images/leia.jpg);
+	background-image: url(../images/1970s.png);
 }
 
 .user-6 {
-	background-image: url(../images/vespa.jpg);
+	background-image: url(../images/1980s.png);
 }
 
 .user-7 {
-	background-image: url(../images/c3po.jpg);
+	background-image: url(../images/1990s.png);
 }
 
 .user-8 {
-	background-image: url(../images/dotmatrix.jpg);
+	background-image: url(../images/2000s.png);
+}
+
+.user-9 {
+	background-image: url(../images/2010s.png);
 }
 
 /* Transparent Checkbox/radio hack: leave the checkbox on top, hide it with opacity 0 */
@@ -473,20 +481,14 @@
 	padding-left: 50px;
 	margin-top: 60px;
 }
-#left_most {
 
+.image_holder img {
+	width: 40%;
 }
 
-
-#center_left {
-
-}
-
-#center_right {
-
-}
-#right_most {
-	padding-top: 100px;
+.image_holder img#left_most{
+	margin-left: 5%;
+	width: 50%;
 }
 
 #features .section_header {

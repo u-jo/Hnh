@@ -17,13 +17,14 @@
 	font-size: 40px;
 	line-height: 50px;
 }
-.image_holder #left_most {
-	margin-left: 40px;
-	margin-right: 20px;
+.image_holder img {
+	width: 40%;
 }
-.image_holder #right_most {
-	margin-left: 40px;
-
+ 
+.image_holder img#left_most{
+	margin-left: 5%;
+	width: 50%;
+}
 }
 h3 {
 	font-size: 27px;
@@ -44,6 +45,9 @@ h3 {
 #paragraph_prod {
 	margin: 45px 0 0 0;
 	background-color: black;
+	font-size: 30px;
+	text-align: justify;
+	line-height: 35px;
 }
 
 .title_head h1{
@@ -89,18 +93,13 @@ h3 {
 
 #in_pricing .plan .wrapper,
 #in_pricing2 .plan .wrapper{
-	padding: 13px 10px 16px 20px;
+	padding: 1px 10px 1px 20px;
 }
 
 #plan_box{
 	margin: 15px 0 15px 0;
 }
 
-#paragraph_prod {
-	font-size: 30px;
-	text-align: justify;
-	line-height: 40px;
-}
 
 
 #in_pricing .plan .price,
@@ -338,7 +337,14 @@ h3 {
 
 }
 
+.qty {
+	font-size: 30px;
+}
 
+h3.qty {
+	font-size: 30px !important;
+	line-height: 40px;
+}
 
 
 
