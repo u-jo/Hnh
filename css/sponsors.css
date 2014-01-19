@@ -1,5 +1,9 @@
 /* features header*/
 
+#paypal{
+	margin-left: 40%;
+	margin-bottom: 10px;
+}
 #current_season {
     text-align: center;
 }

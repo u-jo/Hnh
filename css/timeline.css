@@ -477,19 +477,15 @@
 }
 
 
-.image_holder {
-	padding-left: 50px;
-	margin-top: 60px;
+.image_holder img{
+	width: 100%;
 }
 
-.image_holder img {
-	width: 40%;
+.navbar.navbar-static-top {
+margin-bottom: 0px;
 }
 
-.image_holder img#left_most{
-	margin-left: 5%;
-	width: 50%;
-}
+
 
 #features .section_header {
 	border-top: 1px solid #e0e0e0;

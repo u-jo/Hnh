@@ -1,30 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Hoof 'n' Horn</title>
+<head profile="http://www.w3.org/2005/10/profile">
+    <title>Hoof 'n' Horn - Join Us!</title>
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="icon" href="favicon.png" type="image/png">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" href="favicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Styles -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="css/bootstrap-overrides.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/theme.css">
-        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
-
     <link rel="stylesheet" type="text/css" href="css/lib/animate.css" media="screen, projection">
-    <link rel="stylesheet" href="css/playreading.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/joinus.css" type="text/css" media="screen" />
 
-    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
 <body>
-</div>
-   <div class="navbar navbar-inverse navbar-static-top">
+    <div class="navbar navbar-inverse navbar-static-top">
       <div class="navbar-inner">
         <div class="container">
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -38,7 +36,7 @@
             <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="about-us.html">ABOUT H'n'H</a></li>
+                    <li><a href="about-us.html" class="active">ABOUT H'n'H</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             CURRENT SEASON
@@ -55,7 +53,7 @@
                             OUR STORY
                             <b class="caret"></b>
                         </a>
-                        <ul id ="current_season" class="dropdown-menu" class="active">
+                        <ul id ="current_season" class="dropdown-menu">
                             <li><a href="timeline.html">Past Seasons</a></li>
                             <li><a href="playreading.html">Playreading</a></li>
                             <li><a href="productionCouncil.html">Production Council</a></li>
@@ -64,49 +62,54 @@
                         </ul>
                     </li>
                     <li><a href="fundraising.html">FUNDRAISING</a></li>
-                    <li><a href="sponsors.html">SPONSORS</a></li>                   
+                    <li><a href="sponsors.html">SPONSORS</a></li>
+                    <li><a class="btn-header" href="#">JOIN US!</a></li>
                 </ul>
             </div>
-        </div>
-      </div>
-    </div>
-    <div class="image_holder">
-            <img src="img/playreading/cabaret_pic.png" id="left_most">
-            <img src="img/Playreading/springawakening_pic.png" id="center_left">
-    </div>
-
-    <div class="title_head">
-        <h1>Playreading</h1>
-    </div>
-
-    <div id="paragraph_prod">
-        <div class="container" id="intro">
-            <p>The Playreading Committee was created in 1991 to solicit interest in shows from the general membership, research those shows, and use those findings to create a ballot for approval by the executive council to present to the general members to be voted upon.
-
-            <br><br>The committee members are selected by the chair at the beginning of the academic year. The current chair is <a href="mailto:elena.lagon@duke.edu">Elena Lagon</a>.
-
-            <br><br>Playreading Committee members go to committee meetings, gather information/read scripts, and vote on shows to put on the proposed ballot. They also present the shows that end up on the approved ballot to the general members at the fall and spring retreats. They are also eligible to run for the committee chair during executive council elections at the spring retreat.
-
-            <br><br>Feel free to contact Elena if you have any ideas about future shows that you would like to see Hoof 'n' Horn produce!
-
-            <br><br>For more information regarding the Playreading Committee, see Executive Council Policy E in the Hoof 'n' Horn Bylaws!</p>
+         </div>
         </div>
     </div>
 
+    <!-- Sign In Option 1 -->
+    <div id="sign_up1">
+        <div class="container">
+            <div class="row">
+                <div class="span12 header">
+                    <h4>Sign up to be on our listserv</h4>
+                    <p>
+                        Receive the latest updates on our shows, auditions and upcoming activities!</p>
+                </div>
+                <div class="span12 footer">
+                    <form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
+                        <input type="text" placeholder="Email">
+                        <input type="submit" placeholder="Confirm Password" value="sign up">
+                    </form>
+                </div>
 
+                <!-- <div class="span5 remember">
+                    <label class="checkbox">
+                        <input type="checkbox"> Remember me
+                    </label>
+                    <a href="#">Forgot password?</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
 
-   <!-- starts footer -->
+    
+
+    <!-- starts footer -->
     <footer id="footer">
         <div class="container">
             <div class="row credits">
                 <div class="span12">
                     <div class="row social">
                         <div class="span12">
-                            <a href="https://www.facebook.com/HoofNHorn" class="facebook">
+                            <a href="https://www.facebook.com/HoofNHorn" target="_blank" class="facebook">
                                 <span class="socialicons ico1"></span>
                                 <span class="socialicons_h ico1h"></span>
                             </a>
-                            <a href="https://twitter.com/DukeHoofnHorn" class="twitter">
+                            <a href="https://twitter.com/DukeHoofnHorn" target="_blank" class="twitter">
                                 <span class="socialicons ico2"></span>
                                 <span class="socialicons_h ico2h"></span>
                             </a>
@@ -123,11 +126,7 @@
     </footer>
 
     <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/theme.js"></script>
-    <script src="js/productionCouncil.js"></script>
-    <script src="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"></script>
-
 </body>
 </html>

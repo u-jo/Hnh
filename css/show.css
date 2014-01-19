@@ -15,6 +15,10 @@ img.banner_image {
 	display: block;
 }
 
+#wrapper {
+	height: 100%;
+}
+
 #show_header .section_header{
 	background-color: black;
 	text-align: center;

@@ -198,7 +198,8 @@
 
 #process_section .section_header h3{
 	color: white;
-	margin-left: 400px;
+	margin-left: 30%;
+	margin-right: 30%;
 }
 #process{
 }

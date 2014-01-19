@@ -31,6 +31,11 @@ $(document).ready(function() {
   		$(this).attr('src', 'img/mugshots/joanna.png');
 	});
 
+	$('#alumni').hover(function() {
+  		$(this).attr('src', 'img/mugshots/sam_kebede_fun.png');
+	}, function() {
+  		$(this).attr('src', 'img/mugshots/sam_kebede.png');
+	});
 
 	$('#membership_2').hover(function() {
   		$(this).attr('src', 'img/mugshots/daisygreen_fun.png');

@@ -3,6 +3,9 @@
     text-align: center;
 }
 
+#intro a {
+	text-align: center;
+}
 .title_head {
 	text-align: center;
 	background-color: black;
