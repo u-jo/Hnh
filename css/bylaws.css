@@ -15,6 +15,9 @@
 	text-align: center;
 
 }
+.navbar.navbar-static-top {
+	margin-bottom: 0px;
+}
 .qty {
 	text-transform: uppercase;
 	line-height: 35px;
@@ -25,13 +28,10 @@
 	line-height: 50px;
 }
 .image_holder img {
-	width: 40%;
+	width: 100%;
 }
  
-.image_holder img#left_most{
-	margin-left: 5%;
-	width: 50%;
-}
+
 h4 {
 	line-height: 35px;
 }
@@ -55,7 +55,7 @@ h3 {
 	margin: 45px 0 0 0;
 	background-color: black;
 	font-size: 30px;
-	text-align: justify;
+	text-align: center;
 	line-height: 35px;
 }
 

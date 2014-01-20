@@ -17,28 +17,16 @@
 }
 
 .image_holder {
-	margin-top: 60px;
+	margin-top: 0px;
 	position: relative;
 }
 
 .image_holder img {
 	vertical-align: bottom;
+	width: 100%;
 }
-img#left_most {
-	width:20%;
-}
-
-
-img#center_left {
-	width:30%
-}
-
-img#center_right {
-	width:20%;
-}
-img#right_most {
-	padding-top: 100px;
-	width:25%;
+.navbar.navbar-static-top{
+	margin-bottom: 0px;
 }
 
 

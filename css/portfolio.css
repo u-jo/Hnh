@@ -1,6 +1,11 @@
 #portfolio {
 	margin-top: 60px;
 }
+
+.navbar.navbar-static-top{
+	margin-bottom: 35px;
+}
+
 #portfolio #filters {
 	list-style-type: none;
 	height: 30px;

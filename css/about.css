@@ -202,6 +202,7 @@
 	margin-right: 30%;
 }
 #process{
+	margin-bottom: 100px;
 }
 #process .section_header{
 	margin-bottom: 60px;
@@ -225,7 +226,7 @@
 	margin-bottom: 20px;
 }
 #process .description p{
-	font-size: 15px;
+	font-size: 20px;
 	color: #3F3F3F;
 	line-height: 26px;
 }
