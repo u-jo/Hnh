@@ -7,6 +7,12 @@ $(document).ready(function() {
   		$(this).attr('src', 'img/mugshots/drew.png');
 	});
 
+	$('#music').hover(function() {
+  		$(this).attr('src', 'img/mugshots/sam_g_fun.png');
+	}, function() {
+  		$(this).attr('src', 'img/mugshots/sam_g.png');
+	});
+
 	$('#business').hover(function() {
   		$(this).attr('src', 'img/mugshots/samcaywood_fun.png');
 	}, function() {
